@@ -22,7 +22,7 @@ function svorioKonvertavimas(event){
     const svarai = irasytiKilogramus.value * 2.2046;
     const uncijos = irasytiKilogramus.value * 35.274;
 
-    outputElement.innerText = `Gramai (g) - ${gramai}, Svarai (lb)-${svarai}, Uncijos (oz)-${uncijos} `;
+    outputElement.innerText = `Gramai (g) - ${gramai.toFixed(2)}, Svarai (lb)-${svarai.toFixed(2)}, Uncijos (oz)-${uncijos.toFixed(2)} `;
         return;
     };
     
