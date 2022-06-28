@@ -1,0 +1,84 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.car-card {
+  float:left;
+   padding: 5px;
+   width: 36rem;
+   flex-wrap: wrap;
+   border: 1px solid rgb(60, 66, 68);
+   box-shadow: 6px 6px 4px rgb(63, 61, 61);
+   height: 16rem;
+  margin: 1rem;
+ }
+ .car-card h2 {
+   margin: 2rem 1rem 1rem 1rem;
+ }
+ 
+ .car-card p {
+   margin: 0 1rem 2rem 1rem;
+   text-align: left;
+   font-size: small;
+   flex: auto;
+ }
+/* Mobile first */
+.wrapper {
+  min-height: 100vh;
+  min-width: calc(100vw - (100vw - 100%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.container h1 {
+ margin-top: 50px;
+ padding-right: 200px;
+ padding-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+#output{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.car-card {
+
+  float: center;
+  padding: 5px;
+  padding-left: 10px;
+  max-width: 70%;
+  flex-wrap: wrap;
+  border: 1px solid rgb(60, 66, 68);
+  box-shadow: 6px 6px 4px rgb(63, 61, 61);
+  height: 16rem;
+ margin: 5px;
+
+}
+.car-card h2 {
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+.car-card p {
+  margin: 0 1rem 2rem 1rem;
+  text-align: left;
+  font-size: small;
+  flex: auto;
+  overflow:auto;
+}
