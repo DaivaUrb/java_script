@@ -69,8 +69,9 @@
   box-shadow: 6px 6px 4px rgb(63, 61, 61);
   height: 16rem;
  margin: 5px;
-
+ 
 }
+
 .car-card h2 {
   margin: 2rem 1rem 1rem 1rem;
 }
@@ -81,4 +82,7 @@
   font-size: small;
   flex: auto;
   overflow:auto;
+  
 }
+
+

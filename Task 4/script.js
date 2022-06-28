@@ -23,13 +23,13 @@ function renderCarsCards(cars) {
     cars.forEach((car) => {
       
       const carBrand = document.createElement("h2");
-      carBrand.innerText = `${car.brand}€`;
+      carBrand.innerText = `${car.brand}`;
   
       const carModels = document.createElement("p");
-      carModels.innerText = `${car.models}€`;
+      carModels.innerText = `${car.models}`;
   
       const carCard = document.createElement("div");
-      carCard.setAttribute("class", "car-card");
+      carCard.setAttribute("class", "car-card ");
       carCard.append(
         carBrand,
         carModels
